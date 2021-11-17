@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+header nav {
+  width: 30vw;
+  background-color: gray;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10vh 0 0 0;
+}
+header nav input {
+  margin: 2vh 0;
+  padding: 1vh 4vw;
+}
+header nav div {
+  margin: 5vh 0;
+}
+header nav div input {
+  background-color: aquamarine;
+}
+
+main {
+  margin: 5vh 0;
+  display: flex;
+  justify-content: center;
+}
+main div {
+  text-align: center;
+  border: 3px solid #000000;
+  border-radius: 10%;
+  background-color: goldenrod;
+  height: 50vh;
+  width: 50vw;
+}
+main div h1 {
+  padding: 5vh 0;
+  color: tomato;
+}
+
+/*# sourceMappingURL=main.css.map */

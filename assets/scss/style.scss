@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    nav{
+        width: 30vw;
+        background-color:gray;
+        border:2px solid #000000;
+        border-radius:50%;
+        text-align: center;
+        padding:10vh 0 0 0;
+        input{
+            margin:2vh 0;
+            padding: 1vh 4vw;
+        }
+        div{
+            margin: 5vh 0;
+            input{
+                background-color:aquamarine;
+    
+            }
+        }
+    }
+}
+
+main{
+    margin:5vh 0;
+    display: flex;
+    justify-content: center;
+    div{
+        text-align: center;
+border: 3px solid #000000;
+border-radius: 10%;
+background-color:goldenrod;
+height: 50vh;
+width: 50vw;
+h1{
+    padding:5vh 0;
+    color:tomato;
+}
+    }
+}
